@@ -1,0 +1,17 @@
+body {
+  background-color: black;
+  color: #ec0051;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 0px solid green;
+  padding: 10px;
+}
+.center {
+  text-align: center;
+}
+.line-height {
+  line-height: 15px;
+}
