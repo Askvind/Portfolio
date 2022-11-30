@@ -148,7 +148,7 @@ section {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
   .container_meny {
     display: block;
     justify-content: center;
