@@ -15,7 +15,6 @@ header {
   left: 430px;
   right: 434px;
   top: 0px;
-  box-shadow: 5px 5px 10px 1px #1b1c1e;
 }
 .container_header {
   display: flex;
@@ -55,6 +54,7 @@ h2 {
 }
 h3 {
   color: whitesmoke;
+  margin-bottom: 0px;
 }
 h4 {
   color: whitesmoke;
@@ -76,6 +76,7 @@ p {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 0px;
 }
 
 section {
@@ -90,6 +91,14 @@ section {
   justify-content: center;
   text-align: center;
   gap: 32px;
+}
+.hover {
+  color: whitesmoke;
+  transition: 200ms;
+}
+.hover:hover {
+  color: orange;
+  transition: 200ms;
 }
 .container_project {
   background-color: #280f3c;
@@ -111,4 +120,18 @@ section {
 }
 .img_properties {
   border-radius: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 1000px) {
+  .container_meny {
+    display: block;
+    justify-content: center;
+    gap: 0px;
+  }
+  .img_properties {
+    width: 100%;
+  }
 }

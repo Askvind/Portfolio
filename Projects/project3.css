@@ -54,6 +54,7 @@ h2 {
 }
 h3 {
   color: whitesmoke;
+  margin-bottom: 0px;
 }
 h4 {
   color: whitesmoke;
@@ -62,8 +63,12 @@ h5 {
   color: whitesmoke;
 }
 a {
-  width: 50%;
-  height: 100vh;
+  color: #54b3d6;
+  font-family: "Poppins", sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-decoration: none;
 }
 
 p {
@@ -71,6 +76,7 @@ p {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 0px;
 }
 
 section {
@@ -85,6 +91,14 @@ section {
   justify-content: center;
   text-align: center;
   gap: 32px;
+}
+.hover {
+  color: whitesmoke;
+  transition: 200ms;
+}
+.hover:hover {
+  color: orange;
+  transition: 200ms;
 }
 .container_project {
   background-color: #280f3c;
@@ -106,4 +120,18 @@ section {
 }
 .img_properties {
   border-radius: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 1000px) {
+  .container_meny {
+    display: block;
+    justify-content: center;
+    gap: 0px;
+  }
+  .img_properties {
+    width: 100%;
+  }
 }

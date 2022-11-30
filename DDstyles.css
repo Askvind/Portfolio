@@ -66,8 +66,9 @@ h5 {
   color: whitesmoke;
 }
 a {
-  width: o;
+  width: 30;
   height: 0;
+  text-decoration: none;
 }
 
 p {
@@ -86,10 +87,17 @@ section {
 .container_meny {
   background-color: transparent;
   display: flex;
-  padding-top: 60px;
   justify-content: center;
   text-align: center;
   gap: 32px;
+}
+.hover {
+  color: whitesmoke;
+  transition: 200ms;
+}
+.hover:hover {
+  color: orange;
+  transition: 200ms;
 }
 .container_project {
   background-color: #280f3c;
