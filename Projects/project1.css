@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  top: 0;
+  margin-top: 0;
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(#471b6a, #1b1c1e);
+  min-height: 100vh;
+}
+
+/* Tony Hadders */
+header {
+  background: #1b1c1e;
+  height: 111px;
+  width: 100vw;
+  left: 430px;
+  right: 434px;
+  top: 0px;
+  box-shadow: 5px 5px 10px 1px #1b1c1e;
+}
+.container_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+/* R4 - Poppins */
+
+h1 {
+  font-style: italic;
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 111px;
+  margin-top: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  /* identical to box height */
+
+  mix-blend-mode: color-dodge;
+  /* flex: auto;
+        height: auto;
+        width: auto;
+        padding: 30px;
+        background-color: #1b1c1e;
+        */
+}
+
+h2 {
+  color: whitesmoke;
+}
+h3 {
+  color: whitesmoke;
+}
+h4 {
+  color: whitesmoke;
+}
+h5 {
+  color: whitesmoke;
+}
+a {
+  color: #54b3d6;
+  font-family: "Poppins", sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+p {
+  color: orange;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  background-color: linear-gradient(#471b6a, #1b1c1e);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container_meny {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 32px;
+}
+.container_project {
+  background-color: #280f3c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 2vh;
+  margin: 10vh;
+  border-radius: 10px;
+  align-items: center;
+  box-shadow: 5px 5px 10px 1px #1b1c1e;
+  min-height: 75vh;
+}
+.flex-item {
+  margin-right: 6rem;
+  margin: 2rem;
+  border-radius: 10px;
+}
+.img_properties {
+  border-radius: 10px;
+}
